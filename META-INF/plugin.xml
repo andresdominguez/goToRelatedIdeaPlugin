@@ -1,8 +1,8 @@
 <idea-plugin version="2">
-  <name>Plugin name here</name>
-  <description>short description of the plugin</description>
+  <name>Go to related</name>
+  <description>Jump from one file to the test file. Back and forth</description>
   <version>1.0</version>
-  <vendor>YourCompany</vendor>
+  <vendor>Google</vendor>
 
   <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
   <idea-version since-build="107.105"/>
@@ -21,7 +21,7 @@
             class="com.andresdominguez.goToRelated.GoToRelatedAction"
             text="Go to related ..."
             description="Go to the related test of the file for the test">
-      <keyboard-shortcut keymap="$default" first-keystroke="alt R"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt T"/>
     </action>
   </actions>
 
