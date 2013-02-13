@@ -5,6 +5,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.LangDataKeys;
 import com.intellij.openapi.actionSystem.PlatformDataKeys;
 import com.intellij.openapi.editor.Editor;
+import com.intellij.openapi.roots.ContentIterator;
 import com.intellij.openapi.roots.ProjectRootManager;
 import com.intellij.psi.PsiFile;
 import com.intellij.psi.PsiManager;
@@ -35,7 +36,7 @@ public class GoToRelatedAction extends AnAction {
       return;
     }
 
-    FileIterator fileIterator = new FileIterator(file, PsiManager.getInstance(editor.getProject()));
+    ContentIterator fileIterator = new SpecFileIterator(file, PsiManager.getInstance(editor.getProject()));
     ProjectRootManager.getInstance(editor.getProject()).getFileIndex().iterateContent(fileIterator);
   }
 }

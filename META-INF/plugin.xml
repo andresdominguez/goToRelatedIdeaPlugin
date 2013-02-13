@@ -23,6 +23,13 @@
             description="Go to the related test of the file for the test">
       <keyboard-shortcut keymap="$default" first-keystroke="alt T"/>
     </action>
+    <action id="goToView"
+            class="com.andresdominguez.goToRelated.SwitchToViewAction"
+            text="Go to view..."
+            description="Switch between the view and the controller">
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt O"/>
+    </action>
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
