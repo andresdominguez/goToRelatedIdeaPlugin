@@ -28,7 +28,7 @@
             text="Go to view..."
             description="Switch between the view and the controller">
       <add-to-group group-id="ToolsMenu" anchor="last"/>
-      <keyboard-shortcut keymap="$default" first-keystroke="alt O"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="alt V"/>
     </action>
   </actions>
 
