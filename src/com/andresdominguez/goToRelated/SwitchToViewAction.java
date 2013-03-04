@@ -32,11 +32,28 @@ public class SwitchToViewAction extends AnAction {
     final String fileName = file.getName();
 
     // Only process html and js.
-    if (!fileName.endsWith(".js") && !fileName.endsWith(".html")) {
+    boolean isJsFile = fileName.endsWith(".js");
+    boolean isHtmlFile = fileName.endsWith(".html");
+
+    if (!isJsFile && !isHtmlFile) {
       return;
     }
 
-    ContentIterator fileIterator = new ViewFileIterator(file, PsiManager.getInstance(editor.getProject()));
+    String findFileName;
+    if (isHtmlFile) {
+      findFileName = fileName.replace(".html", ".js");
+    } else {
+      String replace = ".js";
+      if (fileName.endsWith("-spec.js")) {
+        replace = "-spec.js";
+      }
+
+      findFileName = fileName.replace(replace, ".html");
+    }
+
+    ContentIterator fileIterator = new FindRelatedFileIterator(findFileName, PsiManager.getInstance(
+        editor.getProject()));
+
     ProjectRootManager.getInstance(editor.getProject()).getFileIndex().iterateContent(fileIterator);
   }
 }

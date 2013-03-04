@@ -36,7 +36,16 @@ public class GoToRelatedAction extends AnAction {
       return;
     }
 
-    ContentIterator fileIterator = new SpecFileIterator(file, PsiManager.getInstance(editor.getProject()));
+    String findFileName = "";
+    if (fileName.endsWith("-spec.js")) {
+      findFileName = fileName.replace("-spec.js", ".js");
+    } else {
+      findFileName = fileName.replace(".js", "-spec.js");
+    }
+
+    ContentIterator fileIterator = new FindRelatedFileIterator(findFileName, PsiManager.getInstance(
+        editor.getProject()));
+
     ProjectRootManager.getInstance(editor.getProject()).getFileIndex().iterateContent(fileIterator);
   }
 }

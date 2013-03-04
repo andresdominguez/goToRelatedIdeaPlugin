@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f0d00d3-cffd-4644-81f4-b65fa0629963" name="Default" comment="working">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FindRelatedFileIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java" afterPath="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java" afterPath="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/plugin.xml" afterPath="$PROJECT_DIR$/META-INF/plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goToRelated.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/FindRelatedFileIterator.java" changelist="6f0d00d3-cffd-4644-81f4-b65fa0629963" time="1361373002346" ignored="false" />
+    <file path="/SwitchToViewAction.java" changelist="6f0d00d3-cffd-4644-81f4-b65fa0629963" time="1361373155031" ignored="false" />
+    <file path="/GoToRelatedAction.java" changelist="6f0d00d3-cffd-4644-81f4-b65fa0629963" time="1361373464990" ignored="false" />
+    <file path="/a.dummy" changelist="6f0d00d3-cffd-4644-81f4-b65fa0629963" time="1361373823956" ignored="false" />
+    <file path="/plugin.xml" changelist="6f0d00d3-cffd-4644-81f4-b65fa0629963" time="1361373884672" ignored="false" />
+    <file path="/Dummy.txt" changelist="6f0d00d3-cffd-4644-81f4-b65fa0629963" time="1362408360653" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +31,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -57,6 +65,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -69,61 +78,16 @@
       <file leaf-file-name="plugin.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="71" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
+            <state line="25" column="57" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwitchToViewAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java">
+      <file leaf-file-name="FindRelatedFileIterator.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FindRelatedFileIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="19" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="andresdom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/dictionaries/andresdom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="110" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewFileIterator.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/ViewFileIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.33557048">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileIterator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FileIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="69" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpecFileIterator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SpecFileIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="52" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoToRelatedAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1111" selection-end="1320" vertical-scroll-proportion="0.0">
+            <state line="12" column="42" selection-start="372" selection-end="372" vertical-scroll-proportion="0.10822511">
               <folding />
             </state>
           </provider>
@@ -139,15 +103,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FileIteratorTest.java" />
         <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FileIterator.java" />
         <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SpecFileIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java" />
-        <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java" />
         <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/ViewFileIterator.java" />
+        <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FindRelatedFileIterator.java" />
+        <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java" />
+        <option value="$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java" />
         <option value="$PROJECT_DIR$/META-INF/plugin.xml" />
       </list>
     </option>
@@ -156,8 +126,8 @@
     <option name="USE_LOGIN" value="false" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1652" />
+    <option name="x" value="1281" />
+    <option name="y" value="52" />
     <option name="width" value="1280" />
     <option name="height" value="1548" />
   </component>
@@ -187,6 +157,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -249,66 +229,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goToRelated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goToRelatedIdeaPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goToRelated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goToRelatedIdeaPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dictionaries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goToRelated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goToRelatedIdeaPlugin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="copyright" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -470,33 +390,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1652" width="1280" height="1548" extended-state="4" />
+    <frame x="1281" y="52" width="1280" height="1548" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901823" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39844853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22394137" sideWeight="0.67207336" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21905537" sideWeight="0.6706629" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Blaze build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="PsiViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293371" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293371" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -557,53 +477,34 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="29" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="19" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/andresdom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="110" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="110" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/ViewFileIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FileIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="69" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="69" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SpecFileIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="52" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="52" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1111" selection-end="1320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="40" column="0" selection-start="1111" selection-end="1320" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/copyright/profiles_settings.xml">
@@ -611,51 +512,51 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FileIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="69" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1111" selection-end="1320" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SpecFileIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="52" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dictionaries/andresdom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="110" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="19" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="71" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="110" selection-start="88" selection-end="88" vertical-scroll-proportion="0.033557046" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/ViewFileIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.33557048">
+        <state line="21" column="43" selection-start="696" selection-end="696" vertical-scroll-proportion="0.30201343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FileIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="52" selection-start="304" selection-end="319" vertical-scroll-proportion="0.11400651" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SpecFileIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="56" selection-start="924" selection-end="972" vertical-scroll-proportion="0.39087948" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/SwitchToViewAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1502" selection-end="1634" vertical-scroll-proportion="0.7885906" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/GoToRelatedAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="75" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.6514658" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="57" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/andresdominguez/goToRelated/FindRelatedFileIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="372" selection-end="372" vertical-scroll-proportion="0.10822511">
           <folding />
         </state>
       </provider>
